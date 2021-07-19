@@ -22,7 +22,7 @@ func LinuxActioncommand(input *os.File) bytes.Buffer {
 // 获取
 func Hostname() string {
 	hostname, _ := os.Hostname()
-	return hostname
+	return hostname + "v2"
 }
 
 func main() {
